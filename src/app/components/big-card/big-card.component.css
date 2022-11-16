@@ -1,9 +1,7 @@
 .container__big-card{
-  border: solid white 2px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 300px;
-  height: 400px;
+  margin: 15px 10px 0 10px;
+  width: 600px;
+  height: 600px;
 
   display: flex;
   flex-direction: column;
@@ -12,21 +10,22 @@
 }
 
 .big-card__photo > img {
-  width: 100%;
-  min-width: 300px;
+  width: 90%;
+  min-width: 350px;
 }
 
 .big-card__title > h1 {
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .big-card__description{
   margin-top: 15px;
+  max-width: 500px;
 }
 
 .big-card__description > p > a {
   color: gray;
-  font-size: 15px;
+  font-size: 22px;
 }
 
